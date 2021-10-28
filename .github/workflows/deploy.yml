@@ -15,11 +15,11 @@ jobs:
 
       - uses: actions/checkout@v2
 
-      - run: echo "Hola mundo"
+        #- run: echo "Hola mundo"
 
-        # - run: |
-        #    git remote add cpanel ssh://amongcod@amongcode.com/home4/amongcod/repositories/deploy
-        #  git push cpanel master
+      - run: |
+          git remote add cpanel ssh://amongcod@amongcode.com/home4/amongcod/repositories/deploy
+          git push cpanel master
 
       # - name: Create deployment artifact
 
