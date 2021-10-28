@@ -18,7 +18,7 @@ jobs:
         #- run: echo "Hola mundo"
 
       - run: |
-          git remote add cpanel ssh://amongcod@amongcode.com/home4/amongcod/repositories/deploy
+          git remote add cpanel ssh://aneuropean@aneuropean.com/home/aneuropean/repositories/deploy
           git push cpanel master
 
       # - name: Create deployment artifact
