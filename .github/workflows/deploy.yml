@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/checkout@v2
 
-        run: |
+      - run: |
           git remote add cpanel ssh://amongcod@amongcode.com/home4/amongcod/repositories/deploy
           git push cpanel master
 
