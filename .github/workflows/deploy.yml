@@ -54,12 +54,14 @@ jobs:
 
         uses: appleboy/scp-action@master
 
-        with: 
+        env:
 
           host: ${{ secrets.SSH_HOST }}
-
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.SSH_PORT }}
+
+        with: 
+
           source: ${{ github.sha }}.tar.gz
           target: ~/deploy.amongcode.com
