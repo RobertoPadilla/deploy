@@ -56,10 +56,10 @@ jobs:
 
         env:
 
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PWD }}
-          port: ${{ secrets.SSH_PORT }}
+          HOST: ${{ secrets.SSH_HOST }}
+          USERNAME: ${{ secrets.SSH_USERNAME }}
+          PASSWORD: ${{ secrets.SSH_PWD }}
+          # PORT: ${{ secrets.SSH_PORT }}
 
         with: 
 
